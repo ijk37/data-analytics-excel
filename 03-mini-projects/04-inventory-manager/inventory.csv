@@ -1,0 +1,16 @@
+SKU,ItemName,Category,QtyOnHand,ReorderLevel
+SKU-001,USB-C Cable,Accessories,120,50
+SKU-002,Wireless Mouse,Accessories,18,25
+SKU-003,Mechanical Keyboard,Accessories,40,20
+SKU-004,27in Monitor,Computers,6,10
+SKU-005,Laptop Stand,Accessories,75,30
+SKU-006,Noise-Cancel Headset,Audio,12,15
+SKU-007,1080p Webcam,Accessories,55,30
+SKU-008,Docking Station,Computers,8,12
+SKU-009,Desk Lamp,Office,90,40
+SKU-010,Office Chair,Office,4,8
+SKU-011,HDMI Cable,Accessories,200,60
+SKU-012,Portable SSD 1TB,Computers,22,15
+SKU-013,Bluetooth Speaker,Audio,9,10
+SKU-014,Whiteboard,Office,30,12
+SKU-015,Surge Protector,Office,14,20

@@ -1,0 +1,16 @@
+SKU,Supplier,UnitCost,LeadTimeDays
+SKU-001,CablePro,2.10,7
+SKU-002,PeripheralCo,8.50,10
+SKU-003,PeripheralCo,32.00,10
+SKU-004,DisplayWorks,118.00,21
+SKU-005,DeskGear,11.00,14
+SKU-006,AudioHouse,44.00,12
+SKU-007,PeripheralCo,18.00,10
+SKU-008,DisplayWorks,72.00,21
+SKU-009,DeskGear,9.50,14
+SKU-010,DeskGear,86.00,28
+SKU-011,CablePro,1.40,7
+SKU-012,DataStore,78.00,15
+SKU-013,AudioHouse,21.00,12
+SKU-014,OfficePlus,24.00,9
+SKU-015,OfficePlus,12.50,9

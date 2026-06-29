@@ -1,0 +1,14 @@
+# Excel temporary and lock files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: large binary workbooks (uncomment if you don't want to track them)
+# *.xlsx
+# *.xlsm

@@ -1,0 +1,51 @@
+RespondentID,AgeGroup,Channel,Satisfaction,WouldRecommend,Comment
+R001,25-34,Web,5,Yes,Fast and easy to use
+R002,35-44,Store,4,Yes,Helpful staff
+R003,18-24,Mobile,3,No,App was a bit slow
+R004,45-54,Web,2,No,Checkout failed twice
+R005,55+,Store,5,Yes,
+R006,25-34,Mobile,4,Yes,Good experience overall
+R007,35-44,Web,1,No,Could not find what I needed
+R008,18-24,Mobile,5,Yes,Love the app
+R009,45-54,Store,3,No,
+R010,55+,Web,4,Yes,Clear and simple
+R011,25-34,Store,5,Yes,Great selection
+R012,35-44,Mobile,2,No,Crashed during payment
+R013,18-24,Web,4,Yes,
+R014,45-54,Mobile,3,No,Average
+R015,55+,Store,5,Yes,Friendly service
+R016,25-34,Web,4,Yes,Quick delivery
+R017,35-44,Store,5,Yes,
+R018,18-24,Mobile,1,No,Too many bugs
+R019,45-54,Web,3,No,Okay but pricey
+R020,55+,Mobile,4,Yes,Easier than expected
+R021,25-34,Store,2,No,Long wait at counter
+R022,35-44,Web,5,Yes,Excellent
+R023,18-24,Mobile,4,Yes,
+R024,45-54,Store,4,Yes,Good value
+R025,55+,Web,3,No,Could be better
+R026,25-34,Mobile,5,Yes,Smooth checkout
+R027,35-44,Store,3,No,
+R028,18-24,Web,2,No,Confusing layout
+R029,45-54,Mobile,4,Yes,Reliable
+R030,55+,Store,5,Yes,Always a pleasure
+R031,25-34,Web,4,Yes,
+R032,35-44,Mobile,3,No,Mediocre
+R033,18-24,Store,5,Yes,Loved it
+R034,45-54,Web,1,No,Site kept logging me out
+R035,55+,Mobile,4,Yes,
+R036,25-34,Store,5,Yes,Top notch
+R037,35-44,Web,4,Yes,Good prices
+R038,18-24,Mobile,2,No,Slow loading
+R039,45-54,Store,3,No,
+R040,55+,Web,5,Yes,Very satisfied
+R041,25-34,Mobile,4,Yes,Convenient
+R042,35-44,Store,5,Yes,
+R043,18-24,Web,3,No,Just okay
+R044,45-54,Mobile,4,Yes,Works well
+R045,55+,Store,2,No,Item out of stock
+R046,25-34,Web,5,Yes,Highly recommend
+R047,35-44,Mobile,4,Yes,
+R048,18-24,Store,3,No,Average experience
+R049,45-54,Web,5,Yes,Perfect
+R050,55+,Mobile,4,Yes,Nice and simple

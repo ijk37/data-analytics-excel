@@ -1,0 +1,26 @@
+CustomerID,Name,Email,Country,SignupDate,Spend
+0012,  john SMITH ,John.Smith@Email.com ,USA,2025-03-14,"1,250.00"
+0013,mary  jones,MARY.JONES@email.COM,U.S.A,03/22/2025,$890.50
+0014,ALI KHAN, ali.khan@email.com,united states,2025-04-01,1500
+0015,Sara O'neil,sara.oneil@email.com,UK,2025/04/18,"2,100.75"
+0016, robert  brown ,Robert.Brown@Email.com,U.K.,05-02-2025,
+0017,john smith,john.smith@email.com ,USA,2025-03-14,"1,250.00"
+0018,Emma Wilson,emma.wilson@EMAIL.com,United Kingdom,2025-05-20,$640.00
+0019,liam  o'connor,Liam.OConnor@email.com,ireland,2025/06/03,975.25
+0020,  NOAH lee,noah.lee@email.com,Canada,06/11/2025,"3,400.00"
+0021,Olivia Davis ,olivia.davis@email.com,CA,2025-06-19,$1180.00
+0022,william  taylor,William.Taylor@Email.com,canada,2025-07-01,720
+0023,Sophia  Martin,sophia.martin@email.com ,United States,07/14/2025,"2,950.50"
+0024,james  anderson,JAMES.ANDERSON@email.com,USA,2025-07-22,
+0025,mary jones,mary.jones@email.com,United States,2025-03-22,$890.50
+0026, Ava  Thomas,ava.thomas@email.com,uk,2025-08-05,"1,675.00"
+0027,Mason White,mason.white@EMAIL.COM,U.K.,2025/08/16,430.00
+0028,isabella  harris ,isabella.harris@email.com,Ireland,08-28-2025,"2,310.25"
+0029,ETHAN clark,ethan.clark@email.com,canada,2025-09-04,$1990.00
+0030,Mia  Lewis,mia.lewis@email.com ,Canada,09/15/2025,860
+0031,  alexander walker,Alexander.Walker@Email.com,united states,2025-09-27,"1,420.00"
+0032,charlotte  hall,charlotte.hall@email.com,USA,2025-10-08,$705.75
+0033,Daniel Young,daniel.young@email.com,UK,2025/10/19,1320
+0034,liam o'connor,liam.oconnor@email.com,Ireland,2025-06-03,975.25
+0035, Grace  King ,grace.king@EMAIL.com,U.S.A,11-01-2025,"2,545.00"
+0036,Henry Wright,henry.wright@email.com,Canada,2025-11-12,
