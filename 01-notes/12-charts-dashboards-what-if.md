@@ -140,7 +140,7 @@ A complete analytics workflow, start to finish:
 6. **Visualize** with charts and a dashboard (this note).
 7. **Plan** with What-If analysis and forecasting (this note).
 
-That arc — raw data to decision — is data analytics in Excel. The [mini-projects](../03-mini-projects/README.md) walk you through it end to end on real datasets.
+That arc — raw data to decision — is data analytics in Excel. The [mini-projects](../04-mini-projects/README.md) walk you through it end to end on real datasets.
 
 ---
 
@@ -161,4 +161,4 @@ That arc — raw data to decision — is data analytics in Excel. The [mini-proj
 
 ---
 
-*This is the final note. From here, practice with the [exercises](../02-exercises/README.md) and build the [mini-projects](../03-mini-projects/README.md) to cement everything.*
+*This is the final note. From here, practice with the [exercises](../02-exercises/README.md) and build the [mini-projects](../04-mini-projects/README.md) to cement everything.*

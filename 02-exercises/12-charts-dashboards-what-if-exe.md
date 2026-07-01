@@ -130,7 +130,7 @@ If you have monthly revenue across at least ~8 months:
 
 ---
 
-🎉 **You've completed the curriculum!** Now build the [mini-projects](../03-mini-projects/README.md) end-to-end to put it all into practice.
+🎉 **You've completed the curriculum!** Now build the [mini-projects](../04-mini-projects/README.md) end-to-end to put it all into practice.
 
 ---
 

@@ -7,7 +7,7 @@
 
 ## Before You Start
 
-Read [Note 11](../01-notes/11-pivottables-and-pivotcharts.md). PivotTables shine on bigger data, so use the sales dataset from [Mini-Project 01](../03-mini-projects/01-sales-dashboard/sales-data.csv) if you have it — import it (Data → From Text/CSV). Otherwise expand your `Orders` table to ~20 rows with varied Region, Product, Date, and Amount values. Convert the source to a **Table** (`Ctrl + T`) named `Sales`.
+Read [Note 11](../01-notes/11-pivottables-and-pivotcharts.md). PivotTables shine on bigger data, so use the sales dataset from [Mini-Project 01](../04-mini-projects/01-sales-dashboard/sales-data.csv) if you have it — import it (Data → From Text/CSV). Otherwise expand your `Orders` table to ~20 rows with varied Region, Product, Date, and Amount values. Convert the source to a **Table** (`Ctrl + T`) named `Sales`.
 
 ---
 

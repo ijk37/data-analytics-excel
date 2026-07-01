@@ -8,8 +8,9 @@ A structured, self-paced curriculum for learning Microsoft Excel for **data anal
 |--------|----------|
 | [01-notes](01-notes/README.md) | Topic-based markdown notes |
 | [02-exercises](02-exercises/README.md) | Practice exercises for each note |
-| [03-mini-projects](03-mini-projects/README.md) | Hands-on mini projects with sample data |
-| [04-resources](04-resources/) | Reference files and links |
+| [03-quiz](03-quiz/README.md) | Interactive MCQ quizzes (note-wise + mixed) |
+| [04-mini-projects](04-mini-projects/README.md) | Hands-on mini projects with sample data |
+| [05-resources](05-resources/) | Reference files and links |
 
 ## Topics Covered
 
@@ -30,7 +31,17 @@ A structured, self-paced curriculum for learning Microsoft Excel for **data anal
 
 - Read a note in `01-notes/`
 - Practice with the matching exercise in `02-exercises/`
-- Reinforce learning with a mini project in `03-mini-projects/`
+- Test yourself with the matching quiz in `03-quiz/` (open `index.html` in a browser)
+- Reinforce learning with a mini project in `04-mini-projects/`
+
+## Quizzes
+
+The [03-quiz](03-quiz/README.md) folder holds interactive multiple-choice quizzes that run entirely in your browser — just open `03-quiz/index.html`. There are two kinds:
+
+- **Note-wise quizzes** — one per topic (20 questions each), to test a single note.
+- **Final mixed quizzes** — cross-topic quizzes (50 questions each) for comprehensive review.
+
+Questions and answer options shuffle on every attempt, you get instant feedback with explanations, and a review of every wrong answer at the end.
 
 ## Prerequisites
 

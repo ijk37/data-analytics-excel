@@ -25,7 +25,7 @@ Reference material and links for going deeper.
 
 ## Practice Datasets
 
-The mini-projects in [03-mini-projects](../03-mini-projects/README.md) include sample CSV datasets you can use for practice. For more, search for "sample sales data CSV" or use the public datasets at https://www.kaggle.com/datasets.
+The mini-projects in [04-mini-projects](../04-mini-projects/README.md) include sample CSV datasets you can use for practice. For more, search for "sample sales data CSV" or use the public datasets at https://www.kaggle.com/datasets.
 
 ---
 
