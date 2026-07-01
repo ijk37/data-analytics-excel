@@ -101,7 +101,7 @@ Go back to your `Sales` sheet:
 
 If you have a CSV handy (or export your `Sales` table to one):
 
-1. **Data → Get Data → From Text/CSV** (or **From Text/CSV**).
+1. **Data → Get Data → From File → From Text/CSV**.
 2. In the preview, check the **delimiter** and the **data type** Excel detected for each column.
 3. Click **Load**.
 4. Note that this creates a refreshable connection — right-click the result → **Refresh** re-reads the file.
