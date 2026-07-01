@@ -6,7 +6,7 @@ Interactive MCQ quizzes for every topic plus comprehensive mixed quizzes. Built 
 
 **Locally:** Open `index.html` in your browser (double-click it). Everything runs offline.
 
-**On GitHub Pages:** Visit `https://ijk37.github.io/data-analytics-excel/03-quiz/`
+**On GitHub Pages:** [https://ijk37.github.io/data-analytics-excel/03-quiz/](https://ijk37.github.io/data-analytics-excel/03-quiz/)
 
 ## Quizzes
 

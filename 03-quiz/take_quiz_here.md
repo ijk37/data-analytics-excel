@@ -4,8 +4,8 @@ Test your Excel data-analytics knowledge with interactive MCQ quizzes.
 
 ## 👉 Open the Quiz Hub
 
-- **Locally:** open [`03-quiz/index.html`](03-quiz/index.html) in your browser (runs offline, no install).
-- **On GitHub Pages** (after pushing and enabling Pages): `https://<your-username>.github.io/data-analytics-excel/03-quiz/`
+- **Online:** 👉 **[https://ijk37.github.io/data-analytics-excel/03-quiz/](https://ijk37.github.io/data-analytics-excel/03-quiz/)** (requires the repo pushed to GitHub with Pages enabled).
+- **Locally:** open [`index.html`](index.html) in your browser (runs offline, no install).
 
 ---
 

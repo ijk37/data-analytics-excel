@@ -36,7 +36,7 @@ A structured, self-paced curriculum for learning Microsoft Excel for **data anal
 
 ## Quizzes
 
-The [03-quiz](03-quiz/README.md) folder holds interactive multiple-choice quizzes that run entirely in your browser — just open `03-quiz/index.html`. There are two kinds:
+The [03-quiz](03-quiz/README.md) folder holds interactive multiple-choice quizzes that run entirely in your browser — just open `03-quiz/index.html`, or take them online at **[the Quiz Hub](https://ijk37.github.io/data-analytics-excel/03-quiz/)**. There are two kinds:
 
 - **Note-wise quizzes** — one per topic (20 questions each), to test a single note.
 - **Final mixed quizzes** — cross-topic quizzes (50 questions each) for comprehensive review.
