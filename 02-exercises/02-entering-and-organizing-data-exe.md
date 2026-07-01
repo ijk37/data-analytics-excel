@@ -82,7 +82,7 @@ Go back to your `Sales` sheet:
 2. Notice: banded rows, filter arrows on each header.
 3. **Table Design** tab → change the **Table Name** to `Sales`.
 4. Add a new row: click the cell just below the last `Price` and type a new record. Does the table **expand** to include it automatically?
-5. Table Design → tick **Total Row**. A total appears at the bottom. Click the Total cell under `Units` and use its drop-down to switch between Sum and Average.
+5. Table Design → tick **Total Row**. A total appears at the bottom. Click the Total cell under last `Price` and use its drop-down to switch between Sum and Average.
 
 **Question:** Name two advantages a Table gave you over a plain range.
 
