@@ -1,6 +1,8 @@
 __pycache__
 .claude
 .git
+.venv/
+.ipynb_checkpoints/
 .Rhistory
 **/desktop.ini
 ~$*.xlsx
