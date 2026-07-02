@@ -1,57 +1,110 @@
-# Data Analytics with Microsoft Excel
+<div align="center">
 
-A structured, self-paced curriculum for learning Microsoft Excel for **data analytics** — from absolute basics through formulas, lookups, data cleaning, PivotTables, charts, and dashboards, with hands-on exercises and real mini-projects.
+<a href="https://ijk37.com/data-analytics-excel/"><img src="assets/banner.svg" alt="Data Analytics with Excel" width="100%"></a>
 
-## Structure
+<p>
+  <a href="https://ijk37.com/data-analytics-excel/"><img src="https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%A9_View_the_Live_Site-IJK37.COM-F42A41?style=for-the-badge&labelColor=006A4E" alt="View the live site — ijk37.com"></a>
+</p>
 
-| Folder | Contents |
-|--------|----------|
-| [01-notes](01-notes/README.md) | Topic-based markdown notes |
-| [02-exercises](02-exercises/README.md) | Practice exercises for each note |
-| [03-quiz](03-quiz/README.md) | Interactive MCQ quizzes (note-wise + mixed) |
-| [04-mini-projects](04-mini-projects/README.md) | Hands-on mini projects with sample data |
-| [05-resources](05-resources/) | Reference files and links |
+<p>
+  <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12_chapters-217346?style=for-the-badge&labelColor=14532D" alt="Notes"></a>
+  <a href="02-exercises/README.md"><img src="https://img.shields.io/badge/Exercises-12_sets-217346?style=for-the-badge&labelColor=14532D" alt="Exercises"></a>
+  <a href="https://ijk37.com/data-analytics-excel/03-quiz/"><img src="https://img.shields.io/badge/Quiz_Hub-Open-2EA36A?style=for-the-badge&labelColor=14532D" alt="Quiz Hub"></a>
+  <a href="04-mini-projects/README.md"><img src="https://img.shields.io/badge/Mini--Projects-5_labs-217346?style=for-the-badge&labelColor=14532D" alt="Mini-Projects"></a>
+</p>
 
-## Topics Covered
+<p>
+  <img src="https://img.shields.io/badge/Level-Beginner_→_Advanced-2EA36A?style=flat-square&labelColor=14532D" alt="Level">
+  <img src="https://img.shields.io/badge/Chapters-12-217346?style=flat-square&labelColor=14532D" alt="Chapters">
+  <img src="https://img.shields.io/badge/Quiz-25_per_attempt-217346?style=flat-square&labelColor=14532D" alt="Quiz">
+  <img src="https://img.shields.io/badge/Tool-Microsoft_Excel-2EA36A?style=flat-square&labelColor=14532D" alt="Tool">
+</p>
 
-1. Introduction to Excel for Data Analytics
-2. Entering & Organizing Data
-3. Formulas & Cell References
-4. Essential Functions (Count, Sum & Statistical)
-5. Logical Functions
-6. Text Functions
-7. Date & Time Functions
-8. Lookup & Reference Functions
-9. Data Cleaning & Validation
-10. Sorting, Filtering & Conditional Formatting
-11. PivotTables & PivotCharts
-12. Charts, Dashboards & What-If Analysis
+<p><em>A structured, self-paced curriculum for learning <strong>Microsoft Excel for data analytics</strong> — from absolute basics through formulas, lookups, data cleaning, PivotTables, charts, dashboards, and What-If analysis.</em></p>
 
-## How to Use
-
-- Read a note in `01-notes/`
-- Practice with the matching exercise in `02-exercises/`
-- Test yourself with the matching quiz in `03-quiz/` (open `index.html` in a browser)
-- Reinforce learning with a mini project in `04-mini-projects/`
-
-## Quizzes
-
-The [03-quiz](03-quiz/README.md) folder holds interactive multiple-choice quizzes that run entirely in your browser — just open `03-quiz/index.html`, or take them online at **[the Quiz Hub](https://ijk37.github.io/data-analytics-excel/03-quiz/)**. There are two kinds:
-
-- **Note-wise quizzes** — one per topic (20 questions each), to test a single note.
-- **Final mixed quizzes** — cross-topic quizzes (50 questions each) for comprehensive review.
-
-Questions and answer options shuffle on every attempt, you get instant feedback with explanations, and a review of every wrong answer at the end.
-
-## Prerequisites
-
-- Microsoft Excel (2016, 2019, 2021, or Microsoft 365). Most content also works in the free Excel for the web, Google Sheets, or LibreOffice Calc — differences are noted where they matter.
-- Basic computer literacy. No prior Excel or programming experience required.
-
-## A Note on Versions
-
-This curriculum targets **Excel for Microsoft 365 / Excel 2021** on Windows. Where a feature is newer (for example `XLOOKUP` or dynamic array functions), an older-version alternative is given. Keyboard shortcuts use the Windows convention (`Ctrl`); on macOS substitute `Cmd` where noted.
+</div>
 
 ---
 
-> "In God we trust. All others must bring data." — W. Edwards Deming
+## Course Dashboard
+
+| Section | Purpose | Start Here |
+| --- | --- | --- |
+| **01 Notes** | Topic-based study notes, chapter by chapter | [Browse notes](01-notes/README.md) |
+| **02 Exercises** | Hands-on practice for each chapter | [Open exercises](02-exercises/README.md) |
+| **03 Quiz** | Interactive quizzes — 25 random questions per attempt | [Launch quiz hub](https://ijk37.com/data-analytics-excel/03-quiz/) |
+| **04 Mini-Projects** | End-to-end projects with real sample datasets | [View projects](04-mini-projects/README.md) |
+| **05 Resources** | References, shortcut cheat sheet, practice data | [Open resources](05-resources/README.md) |
+
+## Learning Path
+
+```text
+Read notes -> Practice exercises -> Take quiz -> Build a mini-project -> Review weak areas
+```
+
+1. Start with the chapter notes in [`01-notes`](01-notes/README.md).
+2. Complete the matching exercise in [`02-exercises`](02-exercises/README.md).
+3. Test recall in the [Quiz Hub](https://ijk37.com/data-analytics-excel/03-quiz/).
+4. Apply the skills in a [mini-project](04-mini-projects/README.md).
+
+## Chapter Map
+
+| # | Topic | Primary Reading |
+| --- | --- | --- |
+| 01 | Introduction to Excel for Data Analytics | [Introduction](01-notes/01-introduction-to-excel.md) |
+| 02 | Entering & Organizing Data | [Entering & Organizing Data](01-notes/02-entering-and-organizing-data.md) |
+| 03 | Formulas & Cell References | [Formulas & Cell References](01-notes/03-formulas-and-cell-references.md) |
+| 04 | Essential Functions (Count, Sum & Statistical) | [Essential Functions](01-notes/04-essential-functions.md) |
+| 05 | Logical Functions | [Logical Functions](01-notes/05-logical-functions.md) |
+| 06 | Text Functions | [Text Functions](01-notes/06-text-functions.md) |
+| 07 | Date & Time Functions | [Date & Time Functions](01-notes/07-date-and-time-functions.md) |
+| 08 | Lookup & Reference Functions | [Lookup & Reference](01-notes/08-lookup-and-reference-functions.md) |
+| 09 | Data Cleaning & Validation | [Data Cleaning & Validation](01-notes/09-data-cleaning-and-validation.md) |
+| 10 | Sorting, Filtering & Conditional Formatting | [Sort, Filter & Format](01-notes/10-sorting-filtering-conditional-formatting.md) |
+| 11 | PivotTables & PivotCharts | [PivotTables](01-notes/11-pivottables-and-pivotcharts.md) |
+| 12 | Charts, Dashboards & What-If Analysis | [Charts & Dashboards](01-notes/12-charts-dashboards-what-if.md) |
+
+## Quiz Hub
+
+Interactive multiple-choice quizzes with instant scoring, a question navigator, an elapsed timer, and an end-of-quiz review.
+
+| Feature | Details |
+| --- | --- |
+| Chapter quizzes | 12, one per chapter |
+| Attempt style | 25 **random** questions per attempt, options reshuffled each time |
+| Mixed quizzes | Cumulative reviews (50 / 75 / 100 questions) |
+| Access | [Open the Quiz Hub](https://ijk37.com/data-analytics-excel/03-quiz/) |
+
+## Mini-Projects
+
+Each project turns the concepts into a finished deliverable using a provided CSV dataset.
+
+| Project | Focus |
+| --- | --- |
+| [Sales Dashboard](04-mini-projects/01-sales-dashboard/README.md) | PivotTables, charts, lookups, an interactive dashboard |
+| [Personal Budget Tracker](04-mini-projects/02-budget-tracker/README.md) | Formulas, conditional formatting, data validation |
+| [Survey Data Analysis](04-mini-projects/03-survey-analysis/README.md) | COUNTIF, text/logical functions, charts |
+| [Inventory Manager](04-mini-projects/04-inventory-manager/README.md) | Lookups, validation, IF-based reorder alerts |
+| [Data Cleaning Challenge](04-mini-projects/05-data-cleaning-challenge/README.md) | Text functions, Remove Duplicates, Power Query |
+
+## Prerequisites
+
+| Tool | Used For |
+| --- | --- |
+| Microsoft Excel (2016+/365) | All notes, exercises, and projects (most also work in Excel for the web / Google Sheets / LibreOffice Calc) |
+| A modern web browser | The interactive quiz hub (runs offline too) |
+| Basic computer literacy | No prior Excel or programming experience required |
+
+## About This Repository
+
+- One set of Markdown files works two ways: browsable on GitHub **and** published as a [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) site at [ijk37.com/data-analytics-excel](https://ijk37.com/data-analytics-excel/).
+- The build/theme setup is documented in [`assets/site_design.md`](assets/site_design.md).
+- `05-resources` publishes only its README; any copyrighted material stays local.
+
+---
+
+<div align="center">
+
+<strong>Read the notes. Drill the exercises. Prove it in the projects.</strong>
+
+</div>

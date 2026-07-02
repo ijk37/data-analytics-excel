@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Data Analytics with Excel">
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E4429"/>
+      <stop offset="0.55" stop-color="#217346"/>
+      <stop offset="1" stop-color="#14532D"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#33C481"/>
+      <stop offset="1" stop-color="#6FD19A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1200" height="260" rx="20" fill="url(#green)"/>
+  <!-- bright-green bottom accent -->
+  <rect x="0" y="248" width="1200" height="12" fill="url(#leaf)"/>
+
+  <!-- data motif (right side): a bar chart rising over a baseline -->
+  <g opacity="0.9">
+    <line x1="965" y1="200" x2="1140" y2="200" stroke="#6FD19A" stroke-width="2" opacity="0.5"/>
+    <rect x="975"  y="150" width="22" height="50"  rx="3" fill="#57C98A" opacity="0.55"/>
+    <rect x="1008" y="120" width="22" height="80"  rx="3" fill="#6FD19A" opacity="0.7"/>
+    <rect x="1041" y="90"  width="22" height="110" rx="3" fill="#8FE0B4" opacity="0.8"/>
+    <rect x="1074" y="60"  width="22" height="140" rx="3" fill="#B7ECCF" opacity="0.9"/>
+    <rect x="1107" y="100" width="22" height="100" rx="3" fill="#6FD19A" opacity="0.7"/>
+    <!-- trend line -->
+    <path d="M986 168 L1019 138 L1052 108 L1085 78 L1118 118" fill="none" stroke="#EAFBF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <g fill="#EAFBF1" opacity="0.95">
+      <circle cx="986" cy="168" r="4"/>
+      <circle cx="1019" cy="138" r="4"/>
+      <circle cx="1052" cy="108" r="4"/>
+      <circle cx="1085" cy="78" r="4"/>
+      <circle cx="1118" cy="118" r="4"/>
+    </g>
+  </g>
+
+  <!-- text -->
+  <text x="64" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#B7ECCF">DATA ANALYTICS &#183; SELF-PACED STUDY</text>
+  <text x="60" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#ffffff">Data Analytics with Excel</text>
+  <text x="64" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#D6F0E0">Notes &#183; Exercises &#183; Quizzes &#183; Mini-Projects</text>
+</svg>

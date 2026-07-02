@@ -37,7 +37,7 @@ You do not need to be a programmer. Excel is point-and-click, and the small amou
 
 When you open Excel and create a **Blank workbook**, you see something like this:
 
-![The Microsoft Excel interface: the Ribbon with its tabs at the top, the Name Box and Formula Bar below it, and the grid of cells with lettered columns and numbered rows.](excel-interface.png)
+![The Microsoft Excel interface: the Ribbon with its tabs at the top, the Name Box and Formula Bar below it, and the grid of cells with lettered columns and numbered rows.](../assets/images/excel-interface.png)
 
 *The Excel window: the **Ribbon** (with the **Home** tab open) runs across the top; just below it the **Name Box** (showing `A1`) sits to the left of the **Formula Bar** (marked `fx`); and the grid fills the rest, with **column letters** (A, B, C…) across the top and **row numbers** (1, 2, 3…) down the side.*
 

@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Excel Data Analytics — Quiz Hub</title>
+  <title>Data Analytics with Excel — Quiz Hub</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Segoe UI', system-ui, sans-serif;
-      background: #0f1117;
+      background: #0d1a12;
       color: #e2e8f0;
       min-height: 100vh;
       padding: 2rem 1rem;
@@ -17,20 +17,36 @@
 
     header {
       text-align: center;
-      margin-bottom: 2.5rem;
+      max-width: 1000px;
+      margin: 0 auto 2.5rem;
+      background: linear-gradient(135deg, #0E4429 0%, #217346 55%, #14532D 100%);
+      border: 1px solid #2EA36A;
+      border-bottom: 4px solid #33C481;
+      border-radius: 16px;
+      padding: 2.2rem 1.5rem;
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.4);
+    }
+
+    header .eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #B7ECCF;
+      margin-bottom: 0.5rem;
     }
 
     header h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #f8fafc;
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: #ffffff;
       letter-spacing: -0.5px;
     }
 
     header p {
       margin-top: 0.5rem;
-      color: #94a3b8;
-      font-size: 1rem;
+      color: #D6F0E0;
+      font-size: 0.98rem;
     }
 
     .grid {
@@ -42,8 +58,8 @@
     }
 
     .card {
-      background: #1e2231;
-      border: 1px solid #2d3348;
+      background: #16281d;
+      border: 1px solid #26402f;
       border-radius: 12px;
       padding: 1.25rem 1.5rem;
       cursor: pointer;
@@ -56,8 +72,8 @@
     }
 
     .card:hover {
-      border-color: #21a366;
-      background: #14241b;
+      border-color: #217346;
+      background: #1c3325;
       transform: translateY(-2px);
     }
 
@@ -68,8 +84,8 @@
 
     .card-body .topic-id {
       font-size: 0.75rem;
-      font-weight: 600;
-      color: #21a366;
+      font-weight: 700;
+      color: #33C481;
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
@@ -83,14 +99,14 @@
 
     .card-body .q-count {
       font-size: 0.8rem;
-      color: #64748b;
+      color: #6b8577;
       margin-top: 0.2rem;
     }
 
     footer {
       text-align: center;
       margin-top: 3rem;
-      color: #475569;
+      color: #4a6455;
       font-size: 0.85rem;
     }
   </style>
@@ -98,21 +114,23 @@
 <body>
 
 <header>
-  <h1>📊 Data Analytics with Excel — Quiz Hub</h1>
-  <p>Select a topic to test your knowledge</p>
+  <div class="eyebrow">Data Analytics with Excel · Self-Paced Study</div>
+  <h1>📊 Excel Quiz Hub</h1>
+  <p>Pick a chapter and test yourself — 25 random questions per attempt</p>
 </header>
 
 <div class="grid" id="grid"></div>
 
-<footer>Note-wise &amp; mixed quizzes &nbsp;·&nbsp; Instant scoring &nbsp;·&nbsp; Review wrong answers</footer>
+<footer>Random questions each attempt &nbsp;·&nbsp; Instant scoring &nbsp;·&nbsp; Review every answer &nbsp;·&nbsp; Retry re-draws a new set</footer>
 
 <script src="data.js"></script>
+<script src="data-expansion.js"></script>
 <script>
   const ICONS = {
     "01": "📊", "02": "📋", "03": "🧮", "04": "➗",
     "05": "🔀", "06": "🔤", "07": "📅", "08": "🔍",
     "09": "🧹", "10": "🎚️", "11": "📈", "12": "📉",
-    "mixed-1": "🧪", "mixed-2": "🧪", "mixed-3": "🔥",
+    "mixed-1": "🧪", "mixed-2": "🔬", "mixed-3": "🔥",
   };
 
   const MIXED_IDS = ["mixed-1","mixed-2","mixed-3"];
@@ -125,26 +143,31 @@
   function renderCards(list, labelText) {
     const section = document.createElement("div");
     section.style.cssText = "grid-column:1/-1;margin:1rem 0 0.25rem;";
-    section.innerHTML = `<p style="font-size:0.75rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:0.08em">${labelText}</p>`;
+    section.innerHTML = `<p style="font-size:0.8rem;font-weight:700;color:#33C481;text-transform:uppercase;letter-spacing:0.08em;border-left:3px solid #217346;padding-left:0.6rem">${labelText}</p>`;
     grid.appendChild(section);
 
     list.forEach(topic => {
       const qs = QUESTIONS[topic.id] || [];
+      const attempt = attemptSizeFor(topic.id, qs.length);
+      const countText = attempt < qs.length
+        ? `${attempt} random of ${qs.length}`
+        : `${qs.length} questions`;
       const a = document.createElement("a");
       a.className = "card";
       a.href = `quiz.html?topic=${topic.id}`;
+      const label = MIXED_IDS.includes(topic.id) ? "Mixed" : `Chapter ${topic.id}`;
       a.innerHTML = `
         <div class="card-icon">${ICONS[topic.id] || "📋"}</div>
         <div class="card-body">
-          <div class="topic-id">${topic.id.startsWith("mixed") ? "Mixed" : "Topic " + topic.id}</div>
+          <div class="topic-id">${label}</div>
           <div class="topic-title">${topic.title}</div>
-          <div class="q-count">${qs.length} questions</div>
+          <div class="q-count">${countText}</div>
         </div>`;
       grid.appendChild(a);
     });
   }
 
-  renderCards(topicTopics, "Note-wise Quizzes");
+  renderCards(topicTopics, "Chapter Quizzes");
   renderCards(mixedTopics, "Final Mixed Quizzes");
 </script>
 </body>

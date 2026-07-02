@@ -1,19 +1,21 @@
 # Take the Quiz
 
-Test your Excel data-analytics knowledge with interactive MCQ quizzes.
+Test your Excel data-analytics knowledge with the interactive quiz hub.
 
 ## 👉 Open the Quiz Hub
 
-- **Online:** 👉 **[https://ijk37.github.io/data-analytics-excel/03-quiz/](https://ijk37.github.io/data-analytics-excel/03-quiz/)** (requires the repo pushed to GitHub with Pages enabled).
+- **Online:** 👉 **[ijk37.com/data-analytics-excel/03-quiz](https://ijk37.com/data-analytics-excel/03-quiz/)** (live site).
 - **Locally:** open [`index.html`](index.html) in your browser (runs offline, no install).
 
 ---
 
-**12 note-wise quizzes + 3 final mixed quizzes — note-wise: 20 Qs each · mixed: 50 Qs each · instant scoring · shuffled questions and options.**
+**12 chapter quizzes + 3 final mixed quizzes — a ~975-question bank.** Each attempt draws a **fresh random subset**, and both the questions and the answer options are **shuffled every time**. Includes a question navigator, an elapsed timer, instant scoring, and a full end-of-quiz review.
 
-| Quiz Type | Coverage |
-|-----------|----------|
-| Note-wise (01–12) | Introduction, Data Entry, Formulas, Functions, Logical, Text, Dates, Lookups, Cleaning, Sort/Filter/Format, PivotTables, Charts/Dashboards |
-| Final Mixed 1 — Foundations | Topics 01–06 |
-| Final Mixed 2 — Functions & Analysis | Topics 04–09 |
-| Final Mixed 3 — Comprehensive | All topics |
+| Quiz Type | Per attempt | Pool (by importance) |
+|-----------|-------------|----------------------|
+| Chapter quizzes (01–12) | **25 random** | 50 / 75 / **100** |
+| Final Mixed 1 — Foundations (ch 01–06) | **50** | 50 |
+| Final Mixed 2 — Functions & Analysis (ch 04–09) | **75** | 75 |
+| Final Mixed 3 — Comprehensive (all chapters) | **100** | 100 |
+
+The largest chapter pools are **Lookups** and **PivotTables** (100 each); **Functions** and **Cleaning** are 75; the rest are 50.

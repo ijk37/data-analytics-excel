@@ -1,0 +1,155 @@
+/* ── Data Analytics with Excel · green theme ────────────────────────────── */
+
+:root {
+  --xl-green: #217346;         /* Excel primary green */
+  --xl-green-dark: #14532d;
+  --xl-green-deep: #0e4429;
+  --xl-green-bright: #2ea36a;
+  --xl-leaf: #33c481;          /* bright accent (secondary tone) */
+  --xl-mint: #6fd19a;
+  --xl-ink: #10251a;
+  --xl-border: rgba(16, 37, 26, 0.14);
+
+  /* Drive Material's primary (header/nav/footer) and accent (links/hover) */
+  --md-primary-fg-color: #217346;
+  --md-primary-fg-color--light: #2ea36a;
+  --md-primary-fg-color--dark: #14532d;
+  --md-accent-fg-color: #1a8a52;
+}
+
+[data-md-color-scheme="slate"] {
+  --xl-border: rgba(255, 255, 255, 0.16);
+  --md-primary-fg-color: #217346;
+  --md-primary-fg-color--light: #2ea36a;
+  --md-primary-fg-color--dark: #14532d;
+  --md-accent-fg-color: #33c481; /* brighter green reads better on dark */
+  --md-typeset-a-color: #33c481;
+}
+
+.md-header,
+.md-tabs {
+  box-shadow: none;
+}
+
+/* bright-green hairline under the header/tabs for the two-tone look */
+.md-tabs {
+  border-bottom: 3px solid var(--xl-leaf);
+}
+
+.md-header__title {
+  font-weight: 700;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 750;
+  letter-spacing: 0;
+}
+
+.md-typeset h1 {
+  margin-bottom: 0.9rem;
+  color: var(--xl-green);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: var(--xl-leaf);
+}
+
+.md-typeset h2 {
+  border-bottom: 2px solid var(--xl-leaf);
+  padding-bottom: 0.35rem;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--xl-border);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--xl-green);
+  color: #fff;
+  font-weight: 700;
+}
+
+.md-typeset code {
+  border-radius: 0.25rem;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.45rem;
+}
+
+/* colored left rule on blockquotes for a little warmth */
+.md-typeset blockquote {
+  border-left: 0.2rem solid var(--xl-leaf);
+}
+
+/* ── Home hero cards ──────────────────────────────────────────────────── */
+.xl-hero-grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  margin: 1.5rem 0 2rem;
+}
+
+.md-typeset .xl-card {
+  align-items: center;
+  border: 1px solid var(--xl-border);
+  border-left: 0.35rem solid var(--xl-green);
+  border-radius: 0.5rem;
+  color: var(--md-default-fg-color);
+  display: flex;
+  font-size: 1.05rem;
+  font-weight: 700;
+  gap: 0.55rem;
+  min-height: 5rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+}
+
+.md-typeset .xl-card:hover {
+  border-color: var(--xl-leaf);
+  box-shadow: 0 0.55rem 1.4rem rgba(20, 83, 45, 0.18);
+  transform: translateY(-2px);
+}
+
+.md-typeset .xl-card-notes {
+  border-left-color: var(--xl-green);
+}
+
+.md-typeset .xl-card-exercises {
+  border-left-color: var(--xl-green-bright);
+}
+
+.md-typeset .xl-card-quiz {
+  border-left-color: var(--xl-leaf);
+}
+
+.md-typeset .xl-card-projects {
+  border-left-color: var(--xl-mint);
+}
+
+.md-typeset .xl-card-resources {
+  border-left-color: var(--xl-green-deep);
+}
+
+.md-nav__item .md-nav__link--active {
+  font-weight: 700;
+}
+
+.md-footer {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .xl-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset .xl-card {
+    min-height: 4.25rem;
+  }
+}

@@ -1,6 +1,10 @@
 __pycache__
 .claude
 .git
+# MkDocs build output (never commit — CI builds it)
+_site/
+/site/
+../data-analytics-excel-site/
 .venv/
 .ipynb_checkpoints/
 .Rhistory
