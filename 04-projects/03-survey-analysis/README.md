@@ -1,4 +1,4 @@
-# Mini Project 03 — Survey Data Analysis
+# Project 03 — Survey Data Analysis
 
 **Navigation:** [Projects Index](../README.md) | ← Previous [02 — Budget Tracker](../02-budget-tracker/README.md) | Next → [04 — Inventory Manager](../04-inventory-manager/README.md)
 

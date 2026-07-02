@@ -1,4 +1,4 @@
-# Mini Project 04 — Inventory Manager
+# Project 04 — Inventory Manager
 
 **Navigation:** [Projects Index](../README.md) | ← Previous [03 — Survey Analysis](../03-survey-analysis/README.md) | Next → [05 — Data Cleaning Challenge](../05-data-cleaning-challenge/README.md)
 

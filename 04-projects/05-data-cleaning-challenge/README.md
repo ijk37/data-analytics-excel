@@ -1,4 +1,4 @@
-# Mini Project 05 — Data Cleaning Challenge
+# Project 05 — Data Cleaning Challenge
 
 **Navigation:** [Projects Index](../README.md) | ← Previous [04 — Inventory Manager](../04-inventory-manager/README.md)
 

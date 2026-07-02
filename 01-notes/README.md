@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/01_·_Notes-12_chapters-217346?style=for-the-badge&labelColor=14532D" alt="Notes">
 
-[Home](../index.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Mini-Projects](../04-mini-projects/README.md) &nbsp;|&nbsp; [Resources](../05-resources/README.md)
+[Home](../index.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Projects](../04-projects/README.md) &nbsp;|&nbsp; [Resources](../05-resources/README.md)
 
 </div>
 
@@ -36,7 +36,7 @@ Topic-by-topic notes on using Microsoft Excel for data analytics, from absolute 
 1. Read the chapter note.
 2. Complete the matching [exercise](../02-exercises/README.md).
 3. Test recall in the [Quiz Hub](../03-quiz/) (25 random questions per attempt).
-4. Apply it in a [mini-project](../04-mini-projects/README.md).
+4. Apply it in a [project](../04-projects/README.md).
 
 <div align="center" markdown>
 

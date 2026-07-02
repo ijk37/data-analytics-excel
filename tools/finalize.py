@@ -13,8 +13,8 @@ site (https://ijk37.com/data-analytics-excel/):
      get processed.
   3. Retargets root-home links to index.md (the site excludes README.md because
      it conflicts with index.md), depth-aware:
-        notes/exercises + mini-projects overview :  ../README.md   -> ../index.md
-        mini-project sub-pages                   :  ../../README.md -> ../../index.md
+        notes/exercises + projects overview :  ../README.md   -> ../index.md
+        project sub-pages                   :  ../../README.md -> ../../index.md
                                                     (keep ../README.md = projects overview)
   4. Points quiz-README links at the quiz hub (03-quiz/README.md -> 03-quiz/),
      since the quiz app's index.html owns that folder.
@@ -74,7 +74,7 @@ def convert_nav(s: str) -> str:
 def fix_file(path: str) -> bool:
     s = open(path, encoding="utf-8").read()
     orig = s
-    depth = path.replace("\\", "/").count("/")   # 01-notes/x.md -> 1 ; 04-mini-projects/n/README.md -> 2
+    depth = path.replace("\\", "/").count("/")   # 01-notes/x.md -> 1 ; 04-projects/n/README.md -> 2
 
     s = convert_nav(s)
 
@@ -107,8 +107,8 @@ def main():
     files = (
         glob.glob("01-notes/*.md")
         + glob.glob("02-exercises/*.md")
-        + ["04-mini-projects/README.md", "05-resources/README.md"]
-        + glob.glob("04-mini-projects/*/README.md")
+        + ["04-projects/README.md", "05-resources/README.md"]
+        + glob.glob("04-projects/*/README.md")
     )
     changed = sum(fix_file(f) for f in sorted(set(files)) if os.path.exists(f))
 

@@ -164,7 +164,7 @@ This single feature eliminates most category-spelling problems at the source.
 
 ## A Note on Power Query for Cleaning
 
-For cleanups you'll repeat (every week's new export), do them once in **Power Query** (Data → Get & Transform) instead of by hand. Each step — trim, change type, remove duplicates, split column, replace values — is **recorded** and re-applied automatically when you click **Refresh** on next month's file. This is the professional approach to recurring cleaning, covered hands-on in [Mini-Project 05](../04-mini-projects/05-data-cleaning-challenge/README.md).
+For cleanups you'll repeat (every week's new export), do them once in **Power Query** (Data → Get & Transform) instead of by hand. Each step — trim, change type, remove duplicates, split column, replace values — is **recorded** and re-applied automatically when you click **Refresh** on next month's file. This is the professional approach to recurring cleaning, covered hands-on in [Project 05](../04-projects/05-data-cleaning-challenge/README.md).
 
 ---
 

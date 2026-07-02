@@ -1,4 +1,4 @@
-# Mini Project 02 — Personal Budget Tracker
+# Project 02 — Personal Budget Tracker
 
 **Navigation:** [Projects Index](../README.md) | ← Previous [01 — Sales Dashboard](../01-sales-dashboard/README.md) | Next → [03 — Survey Analysis](../03-survey-analysis/README.md)
 

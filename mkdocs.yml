@@ -1,5 +1,5 @@
 site_name: Data Analytics with Excel
-site_description: Microsoft Excel for data analytics — notes, exercises, quizzes, and mini-projects, from beginner to advanced.
+site_description: Microsoft Excel for data analytics — notes, exercises, quizzes, and projects, from beginner to advanced.
 site_author: Jahid
 site_url: https://ijk37.com/data-analytics-excel/
 
@@ -23,7 +23,7 @@ exclude_docs: |
   01-notes.md
   02-exercises.md
   03-quiz.md
-  04-mini-projects.md
+  04-projects.md
   05-resources.md
 
 theme:
@@ -151,11 +151,11 @@ nav:
       - "Exercise 11 · PivotTables & PivotCharts": 02-exercises/11-pivottables-and-pivotcharts-exe.md
       - "Exercise 12 · Charts, Dashboards & What-If": 02-exercises/12-charts-dashboards-what-if-exe.md
   - Quiz: 03-quiz/index.html
-  - Mini-Projects:
-      - Overview: 04-mini-projects/README.md
-      - "01 · Sales Dashboard": 04-mini-projects/01-sales-dashboard/README.md
-      - "02 · Personal Budget Tracker": 04-mini-projects/02-budget-tracker/README.md
-      - "03 · Survey Data Analysis": 04-mini-projects/03-survey-analysis/README.md
-      - "04 · Inventory Manager": 04-mini-projects/04-inventory-manager/README.md
-      - "05 · Data Cleaning Challenge": 04-mini-projects/05-data-cleaning-challenge/README.md
+  - Projects:
+      - Overview: 04-projects/README.md
+      - "01 · Sales Dashboard": 04-projects/01-sales-dashboard/README.md
+      - "02 · Personal Budget Tracker": 04-projects/02-budget-tracker/README.md
+      - "03 · Survey Data Analysis": 04-projects/03-survey-analysis/README.md
+      - "04 · Inventory Manager": 04-projects/04-inventory-manager/README.md
+      - "05 · Data Cleaning Challenge": 04-projects/05-data-cleaning-challenge/README.md
   - Resources: 05-resources/README.md

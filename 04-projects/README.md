@@ -1,4 +1,4 @@
-# 🛠️ 04 Mini-Projects
+# 🛠️ 04 Projects
 
 <div align="center" markdown>
 
@@ -6,7 +6,7 @@
 
 [![View the live site — ijk37.com](https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%A9_View_the_Live_Site-IJK37.COM-F42A41?style=for-the-badge&labelColor=006A4E)](https://ijk37.com/data-analytics-excel/)
 
-<img src="https://img.shields.io/badge/04_·_Mini--Projects-5_projects-217346?style=for-the-badge&labelColor=14532D" alt="Mini-Projects">
+<img src="https://img.shields.io/badge/04_·_Projects-5_projects-217346?style=for-the-badge&labelColor=14532D" alt="Projects">
 
 [Home](../index.md) &nbsp;|&nbsp; [Notes](../01-notes/README.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Resources](../05-resources/README.md)
 

@@ -15,7 +15,7 @@ Microsoft Excel for data analytics — organized for fast learning, practice, an
 
 [:octicons-checklist-16: Quiz Hub](03-quiz/index.html){ .xl-card .xl-card-quiz }
 
-[:octicons-tools-16: Mini-Projects](04-mini-projects/README.md){ .xl-card .xl-card-projects }
+[:octicons-tools-16: Projects](04-projects/README.md){ .xl-card .xl-card-projects }
 
 [:octicons-archive-16: Resources](05-resources/README.md){ .xl-card .xl-card-resources }
 
@@ -26,7 +26,7 @@ Microsoft Excel for data analytics — organized for fast learning, practice, an
 1. Read the topic notes for the current chapter.
 2. Work through the matching exercise.
 3. Test yourself in the quiz hub (25 random questions per attempt).
-4. Build a mini-project to apply the skills to real data.
+4. Build a project to apply the skills to real data.
 
 ## Chapters
 
@@ -50,5 +50,5 @@ Microsoft Excel for data analytics — organized for fast learning, practice, an
 - [All notes](01-notes/README.md)
 - [Practice exercises](02-exercises/README.md)
 - [Interactive quizzes](03-quiz/index.html)
-- [Hands-on mini-projects](04-mini-projects/README.md)
+- [Hands-on projects](04-projects/README.md)
 - [Resources](05-resources/README.md)

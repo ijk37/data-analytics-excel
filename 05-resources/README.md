@@ -8,11 +8,11 @@
 
 <img src="https://img.shields.io/badge/05_·_Resources-Reference-217346?style=for-the-badge&labelColor=14532D" alt="Resources">
 
-[Home](../index.md) &nbsp;|&nbsp; [Notes](../01-notes/README.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Mini-Projects](../04-mini-projects/README.md)
+[Home](../index.md) &nbsp;|&nbsp; [Notes](../01-notes/README.md) &nbsp;|&nbsp; [Exercises](../02-exercises/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Projects](../04-projects/README.md)
 
 </div>
 
-Reference material and links that support the notes, exercises, and mini-projects.
+Reference material and links that support the notes, exercises, and projects.
 
 ## Free Online References
 
@@ -40,14 +40,14 @@ Reference material and links that support the notes, exercises, and mini-project
 
 ## Practice Datasets
 
-The [mini-projects](../04-mini-projects/README.md) include sample CSV datasets you can import into Excel to follow along. For more, search for "sample sales data CSV" or browse [Kaggle Datasets](https://www.kaggle.com/datasets).
+The [projects](../04-projects/README.md) include sample CSV datasets you can import into Excel to follow along. For more, search for "sample sales data CSV" or browse [Kaggle Datasets](https://www.kaggle.com/datasets).
 
 ## Study Flow
 
 1. Read the chapter [notes](../01-notes/README.md).
 2. Practice with the matching [exercises](../02-exercises/README.md).
 3. Test recall in the [Quiz Hub](../03-quiz/).
-4. Apply it in a [mini-project](../04-mini-projects/README.md).
+4. Apply it in a [project](../04-projects/README.md).
 
 <div align="center" markdown>
 

@@ -10,7 +10,7 @@
   <a href="01-notes/README.md"><img src="https://img.shields.io/badge/Notes-12_chapters-217346?style=for-the-badge&labelColor=14532D" alt="Notes"></a>
   <a href="02-exercises/README.md"><img src="https://img.shields.io/badge/Exercises-12_sets-217346?style=for-the-badge&labelColor=14532D" alt="Exercises"></a>
   <a href="https://ijk37.com/data-analytics-excel/03-quiz/"><img src="https://img.shields.io/badge/Quiz_Hub-Open-2EA36A?style=for-the-badge&labelColor=14532D" alt="Quiz Hub"></a>
-  <a href="04-mini-projects/README.md"><img src="https://img.shields.io/badge/Mini--Projects-5_labs-217346?style=for-the-badge&labelColor=14532D" alt="Mini-Projects"></a>
+  <a href="04-projects/README.md"><img src="https://img.shields.io/badge/Projects-5_labs-217346?style=for-the-badge&labelColor=14532D" alt="Projects"></a>
 </p>
 
 <p>
@@ -33,19 +33,19 @@
 | **01 Notes** | Topic-based study notes, chapter by chapter | [Browse notes](01-notes/README.md) |
 | **02 Exercises** | Hands-on practice for each chapter | [Open exercises](02-exercises/README.md) |
 | **03 Quiz** | Interactive quizzes — 25 random questions per attempt | [Launch quiz hub](https://ijk37.com/data-analytics-excel/03-quiz/) |
-| **04 Mini-Projects** | End-to-end projects with real sample datasets | [View projects](04-mini-projects/README.md) |
+| **04 Projects** | End-to-end projects with real sample datasets | [View projects](04-projects/README.md) |
 | **05 Resources** | References, shortcut cheat sheet, practice data | [Open resources](05-resources/README.md) |
 
 ## Learning Path
 
 ```text
-Read notes -> Practice exercises -> Take quiz -> Build a mini-project -> Review weak areas
+Read notes -> Practice exercises -> Take quiz -> Build a project -> Review weak areas
 ```
 
 1. Start with the chapter notes in [`01-notes`](01-notes/README.md).
 2. Complete the matching exercise in [`02-exercises`](02-exercises/README.md).
 3. Test recall in the [Quiz Hub](https://ijk37.com/data-analytics-excel/03-quiz/).
-4. Apply the skills in a [mini-project](04-mini-projects/README.md).
+4. Apply the skills in a [project](04-projects/README.md).
 
 ## Chapter Map
 
@@ -75,17 +75,17 @@ Interactive multiple-choice quizzes with instant scoring, a question navigator, 
 | Mixed quizzes | Cumulative reviews (50 / 75 / 100 questions) |
 | Access | [Open the Quiz Hub](https://ijk37.com/data-analytics-excel/03-quiz/) |
 
-## Mini-Projects
+## Projects
 
 Each project turns the concepts into a finished deliverable using a provided CSV dataset.
 
 | Project | Focus |
 | --- | --- |
-| [Sales Dashboard](04-mini-projects/01-sales-dashboard/README.md) | PivotTables, charts, lookups, an interactive dashboard |
-| [Personal Budget Tracker](04-mini-projects/02-budget-tracker/README.md) | Formulas, conditional formatting, data validation |
-| [Survey Data Analysis](04-mini-projects/03-survey-analysis/README.md) | COUNTIF, text/logical functions, charts |
-| [Inventory Manager](04-mini-projects/04-inventory-manager/README.md) | Lookups, validation, IF-based reorder alerts |
-| [Data Cleaning Challenge](04-mini-projects/05-data-cleaning-challenge/README.md) | Text functions, Remove Duplicates, Power Query |
+| [Sales Dashboard](04-projects/01-sales-dashboard/README.md) | PivotTables, charts, lookups, an interactive dashboard |
+| [Personal Budget Tracker](04-projects/02-budget-tracker/README.md) | Formulas, conditional formatting, data validation |
+| [Survey Data Analysis](04-projects/03-survey-analysis/README.md) | COUNTIF, text/logical functions, charts |
+| [Inventory Manager](04-projects/04-inventory-manager/README.md) | Lookups, validation, IF-based reorder alerts |
+| [Data Cleaning Challenge](04-projects/05-data-cleaning-challenge/README.md) | Text functions, Remove Duplicates, Power Query |
 
 ## Prerequisites
 

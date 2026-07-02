@@ -38,7 +38,7 @@ data-analytics-excel/
 │   └── NN-*.md           # Individual chapter notes
 ├── 02-exercises/        # One exercise per chapter (NN-*-exe.md)
 ├── 03-quiz/             # Static quiz app (own index.html, owns this URL path)
-├── 04-mini-projects/    # One folder per project (NN-*/README.md + sample .csv data)
+├── 04-projects/    # One folder per project (NN-*/README.md + sample .csv data)
 │   ├── README.md
 │   └── NN-*/README.md
 ├── 05-resources/        # Only README.md is published; local-only material stays local
@@ -61,7 +61,7 @@ data-analytics-excel/
 
 **Load-bearing files that cannot be hidden or moved** (the live site is built from this repo, so they must physically exist here): `.github/`, `mkdocs.yml`, `index.md`, `requirements.txt`, `assets/`, `overrides/`, `tools/`, and the content folders. Hiding any of them via `.gitignore` breaks the deploy.
 
-> **Note on numbering:** the quiz owns `03-`, so the mini-projects are `04-` and resources are `05-`. Keep the root shortcut pages (`0N-*.md`) and internal links consistent with this numbering.
+> **Note on numbering:** the quiz owns `03-`, so the projects are `04-` and resources are `05-`. Keep the root shortcut pages (`0N-*.md`) and internal links consistent with this numbering.
 
 ---
 
@@ -89,7 +89,7 @@ exclude_docs: |                   # keep these OUT of the built site
   01-notes.md                     # root shortcut pages are GitHub-only
   02-exercises.md
   03-quiz.md
-  04-mini-projects.md
+  04-projects.md
   05-resources.md
 
 theme:
@@ -133,7 +133,7 @@ nav:
   - Notes: [ Overview: 01-notes/README.md, … ]
   - Exercises: [ … ]
   - Quiz: 03-quiz/index.html      # links straight into the static quiz app
-  - Mini-Projects: [ … ]
+  - Projects: [ … ]
   - Resources: 05-resources/README.md
 ```
 
@@ -182,7 +182,7 @@ Reusable brand elements:
 ## 5. Home page (`index.md`)
 
 - Front matter `hide: [navigation]` for a clean landing (no left tree on the home page).
-- A `.xl-hero-grid` of cards (Notes, Exercises, Quiz Hub, Mini-Projects, Resources) — the primary in-body navigation, so it works even when the sidebar is collapsed (mobile) or hidden.
+- A `.xl-hero-grid` of cards (Notes, Exercises, Quiz Hub, Projects, Resources) — the primary in-body navigation, so it works even when the sidebar is collapsed (mobile) or hidden.
 - Because `README.md` (GitHub landing) and `index.md` (site home) would collide, **`README.md` is excluded from the build** and `index.md` is the site home. Keep the two in rough sync by hand.
 
 ---
@@ -202,7 +202,7 @@ Every section `README.md` starts with the same block:
 
 <img src="…section badge (green)…" alt="Section">
 
-[Home](../index.md) | [Notes](../01-notes/README.md) | [Exercises](../02-exercises/README.md) | [Quiz Hub](../03-quiz/) | [Mini-Projects](../04-mini-projects/README.md) | [Resources](../05-resources/README.md)
+[Home](../index.md) | [Notes](../01-notes/README.md) | [Exercises](../02-exercises/README.md) | [Quiz Hub](../03-quiz/) | [Projects](../04-projects/README.md) | [Resources](../05-resources/README.md)
 
 </div>
 ```

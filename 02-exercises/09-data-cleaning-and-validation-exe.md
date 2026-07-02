@@ -7,7 +7,7 @@
 
 ## Before You Start
 
-Read [Note 09](../01-notes/09-data-cleaning-and-validation.md). This exercise gives you deliberately dirty data to clean — the most realistic analytics skill there is. There's a ready-made messy dataset in [Mini-Project 05](../04-mini-projects/05-data-cleaning-challenge/messy-customers.csv); you can use that or type the small sample below.
+Read [Note 09](../01-notes/09-data-cleaning-and-validation.md). This exercise gives you deliberately dirty data to clean — the most realistic analytics skill there is. There's a ready-made messy dataset in [Project 05](../04-projects/05-data-cleaning-challenge/messy-customers.csv); you can use that or type the small sample below.
 
 Create a sheet `Dirty` with this data (type it exactly, including the inconsistencies):
 

@@ -1,4 +1,4 @@
-# Mini Project 01 — Sales Dashboard
+# Project 01 — Sales Dashboard
 
 **Navigation:** [Projects Index](../README.md) | Next → [02 — Budget Tracker](../02-budget-tracker/README.md)
 

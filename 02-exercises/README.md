@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/02_·_Exercises-12_sets-217346?style=for-the-badge&labelColor=14532D" alt="Exercises">
 
-[Home](../index.md) &nbsp;|&nbsp; [Notes](../01-notes/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Mini-Projects](../04-mini-projects/README.md) &nbsp;|&nbsp; [Resources](../05-resources/README.md)
+[Home](../index.md) &nbsp;|&nbsp; [Notes](../01-notes/README.md) &nbsp;|&nbsp; [Quiz Hub](../03-quiz/) &nbsp;|&nbsp; [Projects](../04-projects/README.md) &nbsp;|&nbsp; [Resources](../05-resources/README.md)
 
 </div>
 
